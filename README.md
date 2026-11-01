@@ -710,7 +710,7 @@ export async function deleteProduct(id) {
   const response = await fetch(`${API_URL}/${id}`, {
     method: "DELETE",
   });
-
+npm install y npm run dev
   if (!response.ok) {
     throw new Error("Error al eliminar el producto");
   }
